@@ -1,0 +1,36 @@
+$min-width: 1100px; // min site width
+$max-width: 1600px; // max site width
+
+$body-bg1: #fbfbfa; // light background
+$body-bg2: #0D0D0D; // dark background
+
+$color1: #a9884e; // main text color
+$color2: #ffffff; // white used in many places
+$color3: #2c2c2c; // detail view header phone color
+$color4: #878181; // old-price color
+$color41: #bebebe; // dimmed old-price color (detail view)
+$color5: #efe8dd; // border-right color for params2 (detail view)
+$color6: #e6e8ea; // top/bottom border for doublepan (detail view)
+$color7: #d7c7ae; // dimmed main color for count input (cart view)
+$color8: #c4ae89; // dimmed color for order form inputs (cart view)
+$color9: #fefefe; // color for head of order form (cart view)
+$color10: #170d0a; // blurred dark bkg for large-list carousel items
+$color11: rgba(255,255,255,0.7); // blurred light bkg for large-list carousel items
+$color12: #b8889c; // price after old-price
+$color13: #373022; // menu border
+$color14: #a11412; // error field border
+$color15: #fed2cb; // error field background
+
+$hover1: #8a6c37;
+
+$alt-underline-color1: #373022;
+$alt-underline-color2: rgba(255, 255, 255, 0.3);
+
+$text-main-clr: $color1;
+
+$light-gradient: linear-gradient(to top, rgba(255, 255, 255, 0), #fff1df) 0 0 repeat-x;
+$circled-light-gradient: radial-gradient(circle at 51% 50%, #ffffff, #ffffff 14%, #fafcfd 60%, #fff1df);
+$dark-gradient: linear-gradient(to top, #0D0D0D, #201917);
+
+$text-light-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+$text-dark-shadow: 0 0 4px rgba(0, 0, 0, 0.5);

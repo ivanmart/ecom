@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>GUI/Checkbox/2/Checked@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Listing---Step2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filter_2" transform="translate(-832.000000, -344.000000)" stroke="#A9884E">
+            <g id="GUI/Checkbox/2/Checked" transform="translate(832.000000, 344.000000)">
+                <g id="Group-27">
+                    <g id="GUI/Checkbox/2/Normal">
+                        <rect id="Rectangle" x="0.5" y="0.5" width="13" height="13" rx="3"></rect>
+                    </g>
+                    <polyline id="Path-14" points="3 7.55688477 6.06689453 10.5568848 10.6223145 4"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

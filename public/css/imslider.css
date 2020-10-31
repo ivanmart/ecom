@@ -1,0 +1,85 @@
+.imSlider {
+  position: relative;
+}
+
+.imSlider ul {
+  padding: 0;
+  margin: 0;
+}
+
+.imSlider li {
+  font-size: 0;
+  vertical-align: middle;
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 10%;
+  transition: margin 0.4s, width 0.4s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.imSlider li img {
+  width: 100%;
+}
+
+.imSlider li:nth-child(6n+3), .imSlider li:nth-child(6n+4) {
+  width: 30%;
+}
+
+.imSlider li:nth-child(6n+1),
+.imSlider li:nth-child(6n+6),
+.imSlider li:nth-last-child(5),
+.imSlider li:nth-last-child(4),
+.imSlider li:nth-last-child(3),
+.imSlider li:nth-last-child(2),
+.imSlider li:last-child {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.imSlider li:nth-child(6n+7) {
+  margin-left: -100%;
+}
+
+.imSlider ul.next li:nth-last-child(5) {
+  margin-left: -10%;
+}
+
+.imSlider ul.next li.active {
+  width: 10%;
+}
+
+.imSlider ul.next li:nth-last-child(2) {
+  width: 30%;
+}
+
+.imSlider ul.prev li.active + li {
+  width: 10%;
+}
+
+.imSlider ul.prev li:nth-last-child(5) {
+  margin-left: -90%;
+}
+
+.imSlider ul.prev li:nth-last-child(4) {
+  width: 30%;
+  opacity: 1;
+}
+
+.imSlider .notransition li {
+  transition: none !important;
+}
+
+.imSlider nav .prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.imSlider nav .next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -10px;
+}
